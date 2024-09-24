@@ -10,7 +10,7 @@ Whereas we trained a residual neural network to classify/predict the toric phase
 
 More information can be found in our original paper [arxiv:2409.15251](https://arxiv.org/abs/2409.15251).
 
-<img src="/assets/images/logo.jpeg" alt="Project Logo" width="500"/>
+<img src="logo.jpeg" alt="Project Logo" width="500"/>
 
 ## Python requirements
 This project was created using specific python and tensorflow versions.
