@@ -1,0 +1,67 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: DimerML
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Pietro
+    family-names: Capuozzo
+    affiliation: University of Southampton
+    orcid: 'https://orcid.org/0000-0002-6486-9923'
+    email: p.capuozzo@soton.ac.uk
+  - given-names: Tancredi
+    family-names: Schettini Gherardini
+    orcid: 'https://orcid.org/0000-0003-4067-0941'
+    affiliation: Queen Mary University
+    email: t.schettinigherardini@qmul.ac.uk
+  - given-names: Benjamin
+    family-names: Suzzoni
+    email: b.suzzoni@soton.ac.uk
+    affiliation: University of Southampton
+    orcid: 'https://orcid.org/0000-0002-3941-0256'
+identifiers:
+  - type: url
+    value: 'https://arxiv.org/abs/2409.15251'
+    description: Arxiv pre-print
+repository-code: 'https://github.com/benterre/DimerML'
+abstract: >-
+  We apply a variety of machine learning methods to the
+  study of Seiberg duality within 4d N=1 quantum field
+  theories arising on the worldvolumes of D3-branes probing
+  toric Calabi-Yau 3-folds. Such theories admit an elegant
+  description in terms of bipartite tessellations of the
+  torus known as brane tilings or dimer models. An intricate
+  network of infrared dualities interconnects the space of
+  such theories and partitions it into universality classes,
+  the prediction and classification of which is a problem
+  that naturally lends itself to a machine learning
+  investigation. In this paper, we address a preliminary set
+  of such enquiries. We begin by training a fully connected
+  neural network to identify classes of Seiberg dual
+  theories realised on Zm×Zn orbifolds of the conifold and
+  achieve R2=0.988. Then, we evaluate various notions of
+  robustness of our methods against perturbations of the
+  space of theories under investigation, and discuss these
+  results in terms of the nature of the neural network's
+  learning. Finally, we employ a more sophisticated residual
+  architecture to classify the toric phase space of the Y6,0
+  theories, and to predict the individual gauged linear
+  σ-model multiplicities in toric diagrams thereof. In spite
+  of the non-trivial nature of this task, we achieve
+  remarkably accurate results; namely, upon fixing a choice
+  of Kasteleyn matrix representative, the regressor achieves
+  a mean absolute error of 0.021. We also discuss how the
+  performance is affected by relaxing these assumptions. 
+keywords:
+  - quantum field theories
+  - supersymmetric models
+  - dualities in field theories
+  - neural networks
+  - machine learning
+license: MIT
+version: 1.0.0
+date-released: '2024-09-24'

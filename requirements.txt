@@ -1,0 +1,9 @@
+numpy
+sympy
+tensorflow==2.16.1
+os
+glob
+re
+sys
+tqdm
+json
