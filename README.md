@@ -15,8 +15,8 @@ More information can be found in our original paper [arxiv:2409.15251](https://a
 ## Python requirements
 This project was created using specific python and tensorflow versions.
 > [!IMPORTANT]
-> - python version == 3.11.x
-> - tensorflow version == 2.19.1
+> - python version == 3.11.x (3.10.x on linux)
+> - tensorflow version == 2.16.1
 
 The authors have not tested any other versions, and cannot guarantee a bug-free experience elsewise.
 All required packages can be found in the `requirements.txt` file.
